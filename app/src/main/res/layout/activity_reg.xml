@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pageBg"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/v_statusBar"/>
+    <include layout="@layout/public_title"/>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_marginTop="7dp"
+                android:hint="姓名"
+                style="@style/regEt"
+                />
+
+            <LinearLayout
+                android:id="@+id/ll_sex"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:paddingRight="28dp"
+                android:paddingLeft="22dp"
+                android:layout_marginBottom="9dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fmp100px" >
+                <TextView
+                    android:id="@+id/tv_sex"
+                    android:textColor="@color/fmpCommonlyUsed"
+                    android:textColorHint="@color/regEtHint"
+                    android:textSize="@dimen/fmpImportant_30px"
+                    android:gravity="center_vertical"
+                    android:hint="性别"
+                    android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/reg_gray_down_arrow"
+                    android:layout_width="13dp"
+                    android:layout_height="7dp" />
+
+            </LinearLayout>
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/et_age"
+                android:hint="年龄"
+                style="@style/regEt"
+                />
+
+            <EditText
+                android:id="@+id/et_tel"
+                android:hint="手机号"
+                style="@style/regEt"
+                />
+
+            <EditText
+                android:inputType="textPassword"
+                android:id="@+id/et_pwd"
+                android:hint="设置密码"
+                style="@style/regEt"
+                />
+
+            <EditText
+                android:id="@+id/et_iDNumber"
+                android:hint="身份证号"
+                style="@style/regEt"
+                />
+
+            <EditText
+                android:id="@+id/et_placeOfResidence"
+                android:hint="户籍地(具体到门牌号)"
+                style="@style/regEt"
+                />
+
+            <EditText
+                android:id="@+id/et_nowAddress"
+                android:hint="现住址"
+                style="@style/regEt"
+                />
+
+            <TextView
+                android:id="@+id/tv_ok"
+                android:background="@drawable/fmp_red_20radius_bg"
+                android:gravity="center"
+                android:textSize="@dimen/fmpImportant_30px"
+                android:textColor="@color/white"
+                android:text="立即注册"
+                android:layout_marginBottom="51dp"
+                android:layout_marginTop="9dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="187dp"
+                android:layout_height="35dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:paddingRight="3dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="175dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"
+        android:layout_width="172dp"
+        android:layout_height="100dp"
+        android:id="@+id/iv"/>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_post"
+            android:text="岗位"
+            android:textSize="@dimen/fmpWeak1_24px"
+            android:textColor="#5B5A5A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/tv_money"
+            android:gravity="right"
+            android:layout_marginRight="6dp"
+            android:text="4k-5k"
+            android:textColor="#5B5A5A"
+            android:textSize="@dimen/fmpWeak3_20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_workExperience"
+            android:text="经验不限"
+            android:textSize="@dimen/fmpWeak1_24px"
+            android:textColor="#5B5A5A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:gravity="right"
+            android:layout_marginRight="10dp"
+            android:text="3.12"
+            android:textColor="#5B5A5A"
+            android:textSize="9sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <!--福利-->
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_welfare1"
+            android:background="@drawable/home_tuijiangangwei_welfare_bg"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:paddingRight="7dp"
+            android:paddingLeft="7dp"
+            android:text="双休"
+            android:textSize="7sp"
+            android:textColor="#5B5A5A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/tv_welfare2"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/home_tuijiangangwei_welfare_bg"
+            android:gravity="left"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:paddingRight="7dp"
+            android:paddingLeft="7dp"
+            android:text="五险一金"
+            android:textColor="#5B5A5A"
+            android:textSize="7sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+
+        android:layout_marginLeft="5dp"
+        android:id="@+id/tv_company"
+        android:layout_marginTop="4dp"
+        android:text="河南省电子商务有限公司"
+        android:textSize="8sp"
+        android:textColor="#5B5A5A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"/>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/iv"/>
+    <TextView
+        android:id="@+id/tv"
+        android:layout_marginTop="8dp"
+        android:text="标题"
+        android:textSize="@dimen/fmpWeak1_24px"
+        android:textColor="#4B4B4B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--白色-->
+    <color name="white">#ffffff</color>
+    <!--页面背景色-->
+    <color name="pageBg">#eeeeee</color>
+
+    <!--公共标题文字颜色-->
+    <color name="publicTitleTextColor">#585858</color>
+
+    <!--文字-->
+    <color name="fmpImportant">#fe3b30</color><!--重要-->
+    <color name="fmpGoodsTitle">#1a1a1a</color><!--用于商品标题等-->
+    <color name="fmpCommonlyUsed">#333333</color><!--常用颜色-->
+    <color name="fmpAuxiliaryText1">#666666</color><!--用于辅助文字、次要信息-->
+    <color name="fmpAuxiliaryText2">#999999</color><!--用于辅助文字、次要信息-->
+    <color name="fmpSplitLine1">#cccccc</color><!--分割线-->
+    <color name="fmpSplitLine2">#e6e6e6</color><!--分割线-->
+    <color name="fmpSplitLine3">#3ccc</color><!--分割线 -->
+
+    <!--注册et hint-->
+    <color name="regEtHint">#B7B7B7</color>
+
+    <!--红色背景-->
+    <color name="fmpRedBg">#DC3B31</color>
+
+</resources>

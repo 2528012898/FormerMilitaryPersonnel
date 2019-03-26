@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 字体大小-->
+    <dimen name="fmpImportantTitle2_44px">22sp</dimen><!--重要  -->
+    <dimen name="fmpImportantTitle2_36px">18sp</dimen><!--重要  -->
+    <dimen name="fmpImportantTitle_34px">17sp</dimen><!--重要 用于重要标题 17sp 51px-->
+    <dimen name="fmpText_32px">16sp</dimen><!---->
+    <dimen name="fmpImportant_30px">15sp</dimen><!--重要 用于一些较为重要的文字或操作按钮 45px-->
+    <dimen name="fmpTitle_28px">14sp</dimen><!--一般 用于大多数文字,商品列表标题等 42px-->
+    <dimen name="fmpOrdinary_26px">13sp</dimen><!--一般 用于大多数文字 39px-->
+    <dimen name="fmpWeak1_24px">12sp</dimen><!--弱   用于辅助性文字 36px-->
+    <dimen name="fmpWeak2_22px">11sp</dimen><!--弱   用于辅助性文字 33px-->
+    <dimen name="fmpWeak3_20px">10sp</dimen><!--弱   用于辅助性文字 -->
+    <dimen name="fmpWeak4_18px">9sp</dimen><!--弱   用于辅助性文字 -->
+    <dimen name="fmpWeak5_16px">8sp</dimen><!--弱   用于辅助性文字 -->
+
+    <!-- 长度-->
+    <dimen name="fmp80px">40dp</dimen>
+    <dimen name="fmp88px">44dp</dimen>
+    <dimen name="fmp90px">45dp</dimen>
+    <dimen name="fmp100px">50dp</dimen>
+    <dimen name="fmp110px">55dp</dimen>
+    <dimen name="fmp128px">64dp</dimen>
+    <dimen name="fmp620px">310dp</dimen>
+    <dimen name="fmp680px">340dp</dimen>
+
+
+</resources>

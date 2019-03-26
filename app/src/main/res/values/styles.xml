@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--启动页面样式-->
+    <style name="welcomeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@mipmap/start_page_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--注册et样式-->
+    <style name="regEt">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/fmpCommonlyUsed</item>
+        <item name="android:layout_marginBottom">9dp</item>
+        <item name="android:textColorHint">@color/regEtHint</item>
+        <item name="android:textSize">@dimen/fmpImportant_30px</item>
+        <item name="android:paddingRight">22dp</item>
+        <item name="android:paddingLeft">22dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/fmp100px</item>
+    </style>
+
+    <!--半透明的activity的样式-->
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

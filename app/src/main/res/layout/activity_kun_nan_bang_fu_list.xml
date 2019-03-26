@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pageBg"
+    android:orientation="vertical"
+
+    >
+
+    <include layout="@layout/public_white_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_daiJieJue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="待解决"
+                android:textColor="#4C4D4D"
+                android:textSize="@dimen/fmpOrdinary_26px" />
+            <TextView
+                android:id="@+id/tv_yiJieJue"
+                android:gravity="center"
+                android:textSize="@dimen/fmpOrdinary_26px"
+                android:textColor="#4C4D4D"
+                android:text="已解决"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            >
+            <View
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                />
+
+            <View
+                android:id="@+id/v_daiJieJue_underline"
+                android:background="#FF0000"
+                android:layout_width="31dp"
+                android:layout_height="1dp"
+                />
+            <View
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                />
+            <View
+                android:id="@+id/v_yiJieJue_underline"
+                android:visibility="invisible"
+                android:background="#FF0000"
+                android:layout_width="31dp"
+                android:layout_height="1dp"
+                />
+            <View
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E6E6E6"/>
+
+    </LinearLayout>
+
+
+    <com.andview.refreshview.XRefreshView
+        android:id="@+id/xRefreshView"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.andview.refreshview.XScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/pageBg"
+            android:fillViewport="true">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </LinearLayout>
+
+        </com.andview.refreshview.XScrollView>
+    </com.andview.refreshview.XRefreshView>
+</LinearLayout>

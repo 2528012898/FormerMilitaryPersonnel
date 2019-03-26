@@ -1,0 +1,5 @@
+key     qiye.jks
+password:    qiye2019ddcc
+
+alias:   qiye2019
+pwd:    qiye2019ddcc

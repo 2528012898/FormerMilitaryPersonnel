@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:paddingRight="17dp"
+        android:paddingLeft="17dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"/>
+        <TextView
+            android:layout_marginBottom="0dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:id="@+id/tv_title"
+            android:layout_marginTop="0dp"
+            android:text="标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题"
+            android:textSize="@dimen/fmpOrdinary_26px"
+            android:textColor="#4B4B4B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"/>
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:text="时间: ....."
+            android:textSize="@dimen/fmpWeak3_20px"
+            android:textColor="#919292"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="17"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E6E6E6"/>
+
+</LinearLayout>
